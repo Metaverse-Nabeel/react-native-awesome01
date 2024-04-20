@@ -8,7 +8,7 @@ function AppPro(): React.JSX.Element {
 
   return (
     <View style={styles.container}>
-      <Text style={isDarkMode? styles.whiteText : styles.blackText}>
+      <Text style={isDarkMode ? styles.whiteText : styles.blackText}>
         Hello World!
       </Text>
     </View>
@@ -18,13 +18,16 @@ function AppPro(): React.JSX.Element {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   whiteText: {
     color: '#fff',
+    fontSize: 28,
   },
   blackText: {
     color: '#000',
+    fontSize: 28,
   },
 });
 
