@@ -6,6 +6,10 @@ function App(): React.JSX.Element {
     <SafeAreaView>
       <View>
         <Text>My First React-Native App</Text>
+        <Text>My First React-Native App</Text>
+        <Text>My First React-Native App</Text>
+        <Text>My First React-Native App</Text>
+        <Text>My First React-Native App</Text>
       </View>
     </SafeAreaView>
   );
